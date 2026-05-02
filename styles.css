@@ -1,0 +1,149 @@
+/* Estilo general del contenedor */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #1a4a75;
+}
+
+/* --- ZONA DE CARGA (DRAG & DROP) --- */
+.upload-section {
+    border: 2px dashed #3498db;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    background-color: #f8fbff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* Efecto cuando arrastras un archivo sobre el cuadro */
+.upload-section.drag-over {
+    background-color: #e1effe;
+    border-color: #2980b9;
+    transform: scale(1.02);
+}
+
+.upload-icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.secondary-text {
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
+
+.formats {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.8em;
+    color: #95a5a6;
+}
+
+/* Ocultamos el input original pero sigue siendo funcional */
+#fileInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* --- LISTA DE ARCHIVOS CARGADOS (Miniaturas con X) --- */
+.file-list-container {
+    margin-bottom: 25px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+.file-thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.file-item {
+    display: flex;
+    align-items: center;
+    background: #f1f1f1;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    border: 1px solid #ddd;
+}
+
+.remove-btn {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    margin-left: 8px;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.remove-btn:hover {
+    background: #c0392b;
+}
+
+/* --- BUSCADOR Y RESULTADOS --- */
+.search-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#searchBtn {
+    padding: 10px 25px;
+    background-color: #1a4a75;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#searchBtn:hover {
+    background-color: #123456;
+}
+
+.result-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.badge {
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.8em;
+}
+
+.match-count { background-color: #d4edda; color: #155724; }
+.no-match { background-color: #f8d7da; color: #721c24; }
