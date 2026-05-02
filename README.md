@@ -28,4 +28,4 @@ Esta herramienta es estática, por lo que **no requiere base de datos** ni servi
 ---
 
 ## ⚖️ Licencia
-Proyecto desarrollado con fines académicos y como herramienta de productividad para el análisis de datos y auditoría[cite: 7].
+Proyecto desarrollado con fines académicos y como herramienta de productividad.
