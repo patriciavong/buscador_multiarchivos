@@ -1,4 +1,4 @@
-# 📂 Buscador Local de Documentos
+# 📂 Buscador de palabras clave en varios archivos
 
 ### **Descripción**
 Este proyecto es una herramienta web de procesamiento **100% local**. Permite buscar palabras específicas dentro de múltiples archivos al mismo tiempo y asi no tener que buscar en cada archivo uno por uno.
