@@ -1,29 +1,19 @@
 # 📂 Buscador de palabras clave en varios archivos
 
 ### **Descripción**
-Este proyecto es una herramienta web de procesamiento **100% local**. Permite buscar palabras específicas dentro de múltiples archivos al mismo tiempo y asi no tener que buscar en cada archivo uno por uno.
+Este proyecto es una herramienta web de procesamiento en local. Permite buscar palabras específicas dentro de múltiples archivos al mismo tiempo y asi no tener que buscar en cada archivo uno por uno.
 
 ---
 
 ## 🚀 Características
 * **Privacidad Total:** Los archivos no se suben a ningún servidor; todo el procesamiento ocurre internamente en el navegador del usuario.
 * **Multiformato:** Soporta la lectura y extracción de texto en archivos **PDF, Excel (XLSX), Word (DOCX) y Texto Plano (TXT)**.
-* **Conteo de Coincidencias:** Identifica y contabiliza cuántas veces aparece el término buscado en cada documento cargado.
-* **Interfaz Intuitiva:** Incluye una zona de interacción moderna con soporte para **arrastrar y soltar** (Drag & Drop).
+* **Conteo de Coincidencias:** Identifica y contabiliza las veces que aparece un término buscado en cada documento cargado.
 
 ---
 
 ## 🛠️ Tecnologías Utilizadas
-* **Lenguajes:** HTML5, CSS3 y JavaScript.
-
----
-
-## 📋 Requisitos e Instalación
-Esta herramienta es estática, por lo que **no requiere base de datos** ni servidores complejos.
-
-1. **Clona** este repositorio o descarga los archivos fuente.
-2. **Organiza las dependencias:** Asegúrate de que las librerías `.js` externas estén ubicadas en la carpeta `/librerias`.
-3. **Ejecuta:** Simplemente abre el archivo `index.html` en tu navegador favorito.
+HTML5, CSS3 y JavaScript.
 
 ---
 
