@@ -7,7 +7,7 @@ Este proyecto es una herramienta web de procesamiento en local. Permite encontra
 
 ## 🚀 Características
 * **Privacidad Total:** Los archivos no se suben a ningún servidor; todo el procesamiento ocurre internamente en el navegador del usuario.
-* **Multiformato:** Soporta la lectura y extracción de texto en archivos **PDF, Excel (XLSX), Word (DOCX) y Texto Plano (TXT)**.
+* **Multiformato:** Soporta la lectura y extracción de texto en archivos **PDF (NO imágenes escaneadas), Excel (XLSX), Word (DOCX) y Texto Plano (TXT)**.
 * **Conteo de Coincidencias:** Identifica y contabiliza las veces que aparece un término buscado en cada documento cargado.
 
 ---
