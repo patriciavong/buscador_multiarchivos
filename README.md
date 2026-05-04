@@ -12,6 +12,11 @@ Este proyecto es una herramienta web de procesamiento en local. Permite encontra
 
 ---
 
+## 💻 Uso
+Descargar la carpeta completa y darle clic al archivo **buscador.html**.
+
+---
+
 ## 🛠️ Tecnologías Utilizadas
 HTML5, CSS3 y JavaScript.
 
