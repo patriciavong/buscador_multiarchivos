@@ -1,7 +1,7 @@
 # 📂 Buscador de palabras clave en varios archivos
 
 ### **Descripción**
-Este proyecto es una herramienta web de procesamiento en local. Permite buscar palabras específicas dentro de múltiples archivos al mismo tiempo y asi no tener que buscar en cada archivo uno por uno.
+Este proyecto es una herramienta web de procesamiento en local. Permite buscar y encontrar palabras específicas, incluso toma en cuenta los términos que contenga lo buscado, dentro de múltiples archivos al mismo tiempo y asi no tener que buscar en cada archivo uno por uno.
 
 ---
 
