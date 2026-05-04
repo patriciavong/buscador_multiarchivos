@@ -13,7 +13,7 @@ Este proyecto es una herramienta web de procesamiento en local. Permite encontra
 ---
 
 ## 💻 Uso
-Descargar la carpeta completa y darle clic al archivo **buscador.html**.
+Descargar la carpeta completa **buscador_multiarchivos** y darle clic al archivo **buscador.html**.
 
 ---
 
